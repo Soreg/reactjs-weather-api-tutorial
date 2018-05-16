@@ -1,0 +1,92 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: linear-gradient(to right, #e2721f , #e14233);
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+.subtitle {
+    font-size: 3.3rem;
+    line-height: 4rem;
+    margin-top: 1rem;
+}
+
+p, form input, button {
+    font-size: 1.8rem;
+}
+
+.app {
+    margin-top: 40px;
+    background: #273648;
+    width: 80vw;
+    height: 90vh;
+    display: flex;
+    -webkit-box-shadow: 0px 18px 12px -8px rgba(0,0,0,0.64);
+    -moz-box-shadow: 0px 18px 12px -8px rgba(0,0,0,0.64);
+    box-shadow: 0px 18px 12px -8px rgba(0,0,0,0.64);
+}
+
+.titles {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url('img/bg.jpg');
+    background-size: cover;
+    text-align: center;
+}
+
+.data-view {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    padding: 80px 60px;
+}
+
+.data-view p {
+    color: white;
+    margin: 4rem auto;
+}
+
+.data-view span {
+    color: #ef5447;
+}
+
+form input {
+    margin-right: 25px;
+    background: none;
+    color: white;
+    border: none;
+    border-bottom: 1px solid #ef5447;
+    padding-bottom: 5px;
+    outline: none;
+    transition: all ease .3s;
+}
+
+form input:focus {
+    border-color: #be5b52;
+}
+
+form button {
+    background: #ef5447;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    transition: all ease .3s;
+}
+
+form button:hover {
+    background: #be5b52;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+}
