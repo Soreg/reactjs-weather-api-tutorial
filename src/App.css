@@ -97,11 +97,6 @@ form button:hover {
     cursor: pointer;
 }
 
-form {
-    display: flex;
-    justify-content: center;
-}
-
 @media screen and (max-width: 1350px) {
     .app {
         flex-direction: column;
@@ -109,6 +104,8 @@ form {
     }
 
     form {
+        display: flex;
+        justify-content: center;
         flex-wrap: wrap;
     }
 
